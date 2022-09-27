@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #90CAF9;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 800;
+}
+
+h2{
+    font-weight: 300;
+}
+
+h6{
+    font-weight: normal;
+}
+
+ul{
+    font-weight: 400;
+    text-align: left;
+}
+
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav img {
+    margin: 2em;
+    padding: 0 6em;
+    height: 80px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a{
+    color: #90CAF9;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    float: left;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: #90CAF9;
+}
+
+.landing {
+    display: flex;
+    color: white;
+    margin: 0em 6em;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.text{
+    margin: 0em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+    align-items: center;
+}
+
+.landing .text button{
+    background-color: #407BFF;
+    margin: 1.5em 0;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 33%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.soccer-photo{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    display: block;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.soccer-photo img{
+    width: 100%;
+    height: auto;
+    margin: 2em;
+}
+
+footer {
+    color: black;
+    margin-top: auto;
+    padding: 2em 0em;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+    overflow: hidden;
+    position: fixed;
+}
+
+footer h6{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.content h1{
+    padding: 1em 1em 0em 1em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.sponsors{
+    padding: 3em;
+    margin: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsors img{
+    width: 33%;
+    height: auto;
+}
+
+.team-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 6em;
+    margin-bottom: 4em;
+}
+
+.member{
+    background-color: white;
+    color: black;
+    margin: 2em;
+    padding: 2em 1em;
+    max-width: 20%;
+}
+
+.member img{
+    width: 33%;
+    height: auto;
+    padding: 1em;
+}
+
+.contact-photo-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact-photo-div img{
+    width: 50%;
+    height: auto;
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content table{
+    padding: 1em;
+    margin: auto;
+    font-size: 24px;
+}
+
+.video {
+    padding: 0em 2em 2em 2em;
+    margin: 2em;
+}
+
+.credits-page{
+    display: table;
+}
+
+.credits-page .credits-footer{
+    display: table-row;
+    height: 0;
+}
+
+
+
