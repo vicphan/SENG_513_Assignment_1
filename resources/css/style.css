@@ -67,6 +67,11 @@ ul{
     background-color: #90CAF9;
 }
 
+#current-page{
+    color: white;
+    background-color: #90CAF9;
+}
+
 .landing {
     display: flex;
     color: white;
@@ -114,7 +119,6 @@ ul{
 .soccer-photo img{
     width: 100%;
     height: auto;
-    margin: 2em;
 }
 
 footer {
@@ -233,5 +237,10 @@ footer h6{
     height: 0;
 }
 
+.soccer-credit-photo img{
+    padding-top: 1em;
+    width: 15%;
+    height: auto;
+}
 
 
